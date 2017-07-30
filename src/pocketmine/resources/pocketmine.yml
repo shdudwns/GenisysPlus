@@ -196,7 +196,7 @@ spawn-limits:
 #自动报告
 auto-report:
  #自动发送故障报告
- enabled: true
+ enabled: false
  #截取使服务器崩溃的代码片段
  send-code: true
  #截取是服务器崩溃的相关设置片段
@@ -204,13 +204,13 @@ auto-report:
  #获取由于PHP而造成服务器崩溃的相关代码
  send-phpinfo: false
  #将最近的crashdumps文件保存的同时上传到指定地址
- host: 如果遇到了问题请把最近的crashdumps文件发给永城互联客服，并说明情况。
+ host: FILL_HERE_IF_YOU_NEED
 
 #匿名统计
 anonymous-statistics:
  #是否将数据聚合、 插件使用情况等信息统计，并以匿名的方式发送到指定地址
  enabled: false
- host: bbs.z6mc.cn
+ host: FILL_HERE_IF_YOU_NEED
 
 #自动升级设置
 auto-updater:
@@ -226,7 +226,7 @@ auto-updater:
  preferred-channel: stable
  #如果使用的服务器是开发版, 是否允许服务器上传用户反馈建议到指定网址？
  suggest-channels: false
- host: bbs.z6mc.cn
+ host: FILL_HERE_IF_YOU_NEED
 
 #时间设置
 timings:
